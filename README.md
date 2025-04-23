@@ -8,7 +8,7 @@ This repository contains an exported Preset.io (Apache Superset) dashboard for a
 - `charts/`: YAML files containing chart configuration used in dashboards
 - `datasets/`: YAML files defining dataset-level SQL logic and metadata (e.g., filters, metrics, groupbys)
 - `databases/`: YAML files with database metadata (excluding credentials)
-- `metadata.yaml`: Superset export metadata for import version tracking
+- `metadata.yaml`: Export metadata for import version tracking
 
 
 ## How to Re-Import
