@@ -1,5 +1,6 @@
 # regeneron-bravo-dashboard
 Visualization of global clinical trial trends using Preset.io
+
 This repository contains an exported Preset.io (Apache Superset) dashboard for archival and future import.
 
 ## Contents
