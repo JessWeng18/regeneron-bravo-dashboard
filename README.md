@@ -1,10 +1,7 @@
 # regeneron-bravo-dashboard
 Visualization of global clinical trial trends using Preset.io
 
-Created by: 
-- Jess Weng (jw4627@columbia.edu)
-- Maima Syakhroza (mms2374@columbia.edu)
-- Grace Lee (gl2909@columbia.edu)
+Created by: Jess Weng (jw4627@columbia.edu), Maima Syakhroza (mms2374@columbia.edu) and Grace Lee (gl2909@columbia.edu)
 
 This repository contains an exported Preset.io (Apache Superset) dashboard for archival and future import.
 
