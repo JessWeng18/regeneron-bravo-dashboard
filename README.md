@@ -3,22 +3,18 @@ Visualization of global clinical trial trends using Preset.io
 
 Created by: Jess Weng (jw4627@columbia.edu), Maima Syakhroza (mms2374@columbia.edu) and Grace Lee (gl2909@columbia.edu)
 
-This repository contains an exported Preset.io (Apache Superset) dashboard for archival and future import.
+This repository contains an exported Preset.io (Apache Superset) dashboard for archival and future import. 
+It also includes SQL scripts used to derive clinical trial metrics related to inclusion criteria complexity and termination rates.
 
 ## Contents
-- `dashboards/`: YAML files defining dashboard layouts and metadata
-- `charts/`: YAML files containing chart configuration used in dashboards
-- `datasets/`: YAML files defining dataset-level SQL logic and metadata (e.g., filters, metrics, groupbys)
-- `databases/`: YAML files with database metadata (excluding credentials)
-- `metadata.yaml`: Export metadata for import version tracking
-
-
-## How to Re-Import
-1. In a Superset instance, go to:
-   - `Settings` → `Import Dashboards`
-2. Upload the entire exported zip file or the extracted directory
-3. Reconnect to the appropriate data source as needed
+- Bravo Team Presentation Slides.pdf: Project Presentation containing User Stories
+- One Page Final Report.pdf: Project summary document
+- Regeneron Dashboard Demo.mov: Screen recording of dashboard functionality/use of filters
+- clinical_trials_query.sql: SQL query for extracting and transforming clinical trial data
+- clinical_trials_query.psql: Same logic formatted for PostgreSQL
 
 ## Notes
-- Database credentials and raw data are not included.
-- This export is from Preset.io (Entrepreneurship plan).
+- Database credentials and raw data are not included
+- The SQL scripts assume access to the ctgov schema (AACT database)
+- This export is from Preset.io (Entrepreneurship plan)
+- This repository does not include YAML dashboard export files
