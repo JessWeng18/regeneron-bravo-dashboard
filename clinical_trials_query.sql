@@ -141,3 +141,5 @@ LEFT JOIN termination_rate tr ON sy.nct_id = tr.nct_id
 GROUP BY sy.nct_id, sy.trial_count, sy.year, sd.month_difference, sd.target_duration, sd.study_type, 
     sd.acronym, sd.overall_status, sd.phase, sp.phase_cleaned, 
     sd.enrollment, sd.source_class, sd.official_title, sc.country_name, scn.condition_name, ss.agency_class, ss.sponsor_name, b.criteria_bin, tr.termination_rate_percent;
+
+--end of code
