@@ -3,9 +3,6 @@ Visualization of global clinical trial trends using Preset.io
 
 Created by: Jess Weng (jw4627@columbia.edu), Maima Syakhroza (mms2374@columbia.edu) and Grace Lee (gl2909@columbia.edu)
 
-This repository contains an exported Preset.io (Apache Superset) dashboard for archival and future import. 
-It also includes SQL scripts used to derive clinical trial metrics related to inclusion criteria complexity and termination rates.
-
 ## Contents
 - Bravo Team Presentation Slides.pdf: Project Presentation containing User Stories
 - One Page Final Report.pdf: Project summary document
